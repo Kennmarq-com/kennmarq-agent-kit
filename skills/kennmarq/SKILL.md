@@ -60,7 +60,7 @@ call; it's free up to 1,000 marks a month and needs an API key." Go on when the 
    | Any other language | HTTP: `POST https://api.kennmarq.com/v1/mark` | [http.md](references/http.md) |
 
    Which markets need which fields, and what is refused: [markets.md](references/markets.md).
-6. **The API key.** Ask the user to get a key at https://kennmarq.com/signup. Kennmarq.com is in early access: the page explains how to request a key by email (sales@kennmarq.com), so tell the user it may take a little while. The key goes in the project's secrets as `KENNMARQ_API_KEY` (`.env.local` for Next.js,
+6. **The API key.** Ask the user to create a free account at https://kennmarq.com/signup (no card), confirm the email and create a key in the dashboard. The key goes in the project's secrets as `KENNMARQ_API_KEY` (`.env.local` for Next.js,
    `.env` elsewhere, or the secrets panel of the host: Vercel, Replit, Lovable, Bolt, Netlify). A test key
    (`sk_test_…`) is fine while building: 100 marks a month on the Free plan, signed with a test certificate. Never
    ask for the key in the chat.

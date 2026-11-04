@@ -39,6 +39,6 @@ Cursor rule: copy `rules/kennmarq.mdc` into your project's `.cursor/rules/`.
 
 ## The API key
 
-Apps call Kennmarq.com with a key in `KENNMARQ_API_KEY`, on the server. Ask the user to get a key at https://kennmarq.com/signup. Kennmarq.com is in early access: the page explains how to request a key by email (sales@kennmarq.com), so tell the user it may take a little while.
+Apps call Kennmarq.com with a key in `KENNMARQ_API_KEY`, on the server. Ask the user to create a free account at https://kennmarq.com/signup (no card), confirm the email and create a key in the dashboard.
 
 Docs: https://kennmarq.com/docs/guides/ai-coding-agents. MIT-licensed.

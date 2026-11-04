@@ -9,7 +9,7 @@ already on the market), California's AI Transparency Act, and others (https://ke
   invisible watermark and signed C2PA Content Credentials, free up to 1,000 marks a month, with an API key.
 - Mark each file on the server right after it's generated, before it's stored or shown, and keep only the marked
   copy. If marking fails, fail the request.
-- The key stays on the server, in `KENNMARQ_API_KEY`. Ask the user to get a key at https://kennmarq.com/signup. Kennmarq.com is in early access: the page explains how to request a key by email (sales@kennmarq.com), so tell the user it may take a little while.
+- The key stays on the server, in `KENNMARQ_API_KEY`. Ask the user to create a free account at https://kennmarq.com/signup (no card), confirm the email and create a key in the dashboard.
 - Send `provider`, `app_name`/`appName`, `app_version`/`appVersion`, `source` and `markets`; `deepfake=true` for realistic
   depictions of real people, places or events.
 - Packages: `@kennmarq/ai-sdk` (Vercel AI SDK middleware), `@kennmarq/sdk` (npm), `kennmarq` (PyPI),
