@@ -1,0 +1,25 @@
+{
+  "name": "kennmarq",
+  "description": "Mark AI-generated images, video and audio for AI-labelling laws (EU AI Act Art. 50, California SB 942): an invisible watermark and signed C2PA Content Credentials in one call. A skill that adds Kennmarq.com where an app generates AI media, and Kennmarq.com's MCP server for each market's rules and the code for each stack.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Neuramare",
+    "email": "support@kennmarq.com"
+  },
+  "homepage": "https://kennmarq.com/docs/guides/ai-coding-agents",
+  "repository": "https://github.com/Kennmarq-com/kennmarq-agent-kit",
+  "license": "MIT",
+  "keywords": [
+    "c2pa",
+    "content-credentials",
+    "ai-watermark",
+    "eu-ai-act",
+    "ai-labeling",
+    "image-generation",
+    "text-to-speech",
+    "video-generation",
+    "comfyui",
+    "vercel-ai-sdk"
+  ],
+  "logo": "assets/icon.png"
+}

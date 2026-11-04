@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kennmarq": {
+      "type": "http",
+      "url": "https://api.kennmarq.com/mcp"
+    }
+  }
+}

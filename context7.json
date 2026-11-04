@@ -1,0 +1,13 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Kennmarq.com agent kit",
+  "description": "How to mark AI-generated images, video and audio with Kennmarq.com from an app's code: the Vercel AI SDK middleware, the JavaScript and Python SDKs, ComfyUI nodes and the HTTP API, with what each market's AI-labelling laws ask of a call.",
+  "folders": [
+    "skills"
+  ],
+  "rules": [
+    "Call Kennmarq.com from server code only, with the key in the KENNMARQ_API_KEY environment variable; never put the key in browser or mobile code.",
+    "Mark each AI-generated file right after it is generated, before it is stored or shown, and keep only the marked copy; if marking fails, fail the request.",
+    "Send provider, the app's name and version, and markets with the countries the app serves, so each mark carries what their laws ask."
+  ]
+}

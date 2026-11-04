@@ -1,0 +1,11 @@
+{
+  "name": "kennmarq-agent-kit",
+  "version": "0.1.0",
+  "description": "Mark AI-generated images, video and audio for AI-labelling laws (EU AI Act Art. 50, California SB 942): an invisible watermark and signed C2PA Content Credentials in one call. A skill that adds Kennmarq.com where an app generates AI media, and Kennmarq.com's MCP server for each market's rules and the code for each stack.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "kennmarq": {
+      "httpUrl": "https://api.kennmarq.com/mcp"
+    }
+  }
+}

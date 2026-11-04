@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.kennmarq/kennmarq",
+  "title": "Kennmarq.com",
+  "description": "Rules and code for marking AI images, video and audio with C2PA and watermarks",
+  "version": "0.1.0",
+  "websiteUrl": "https://kennmarq.com/docs/guides/ai-coding-agents",
+  "repository": {
+    "url": "https://github.com/Kennmarq-com/kennmarq-agent-kit",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kennmarq.com/mcp"
+    }
+  ]
+}
