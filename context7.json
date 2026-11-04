@@ -8,6 +8,6 @@
   "rules": [
     "Call Kennmarq.com from server code only, with the key in the KENNMARQ_API_KEY environment variable; never put the key in browser or mobile code.",
     "Mark each AI-generated file right after it is generated, before it is stored or shown, and keep only the marked copy; if marking fails, fail the request.",
-    "Send provider, the app's name and version, and markets with the countries the app serves, so each mark carries what their laws ask."
+    "A mark records the model's provider, the app's name and version and the markets it serves (the `provider`, `app_name`, `app_version` and `markets` fields of POST /v1/mark), so it carries what each market's labelling laws ask."
   ]
 }
